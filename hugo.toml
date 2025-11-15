@@ -1,0 +1,10 @@
+baseURL = 'https://kulewicz.net'
+languageCode = 'en-us'
+title = 'kulewicz.net'
+[params]
+  description = "Blog o cybersecurity i DevOps."
+  og_image = "/images/dashboard.webp"
+[markup]
+  [markup.highlight]
+    style = 'catppuccin-frappe'
+   

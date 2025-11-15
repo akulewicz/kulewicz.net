@@ -1,0 +1,32 @@
+p {
+    margin-bottom: 1rem;
+}
+
+strong {
+    color: oklch(94.513% 0.01954 252.986);
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: oklch(96.8% 0.007 247.896);
+    margin-bottom: 1rem;
+}
+
+pre {
+    padding: 1rem;
+    font-size: 1rem;
+  white-space: pre-wrap;    /* pozwala na zawijanie */
+  word-break: break-word;   /* łamie długie wyrazy/ścieżki */
+  margin-bottom: 1rem;
+}
+
+.post ul {
+    list-style: disc;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.post a {
+    text-decoration: underline;
+}

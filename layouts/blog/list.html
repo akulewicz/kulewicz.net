@@ -1,0 +1,37 @@
+{{ define "main" }}
+<main class="px-5 max-w-4xl m-auto">
+    <h1 class="text-3xl/10 lg:text-5xl/14 text-slate-100 font-bold mt-6 mb-6">{{ .Title }}</h1>
+
+    {{ range .Paginator.Pages }}
+    <article class="py-12 border-b border-white/10">
+
+        {{ $img := .Resources.GetMatch .Params.image }}
+        {{ if $img }}
+        <img src="{{ $img.RelPermalink }}" alt="" class="border border-purple-300/30 rounded-xl mb-4">
+        {{ end }}
+        <div>
+            <span class="text-md text-slate-300"><i class="fa-regular fa-pen-to-square"></i> {{ .Date.Format
+                "02.01.2006" }}</span>
+            <h1><a class="text-4xl/12 font-bold text-white block my-3 hover:text-slate-300" href="{{ .Permalink }}">{{
+                    .Title }}</a></h1>
+        </div>
+
+        <div class="text-lg">
+            {{ .Params.description }}
+        </div>
+        <div class="flex items-center mt-6">
+            <img src="{{ .Params.avatar }}" alt="" class="w-10 h-auto rounded-full border border-purple-300 mr-3">
+            <div class="flex flex-col">
+                <span class="font-semibold text-white text-md">Arkadiusz Kulewicz</span>
+
+            </div>
+        </div>
+
+    </article>
+    {{ end }}
+
+
+
+</main>
+
+{{ end }}

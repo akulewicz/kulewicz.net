@@ -1,0 +1,19 @@
+<title>{{ .Title }} | {{ .Site.Title }}</title>
+
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+
+{{ with .Params.image }}
+  <meta property="og:image" content="{{ . | absURL }}">
+{{ else }}
+  {{ with .Site.Params.og_image }}
+    <meta property="og:image" content="{{ . | absURL }}">
+  {{ end }}
+{{ end }}
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">

@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<main class="px-5 max-w-4xl m-auto">
+    <article class="post pb-20">
+        <header>
+            <img src="{{ .Params.image }}" alt="" class="rounded-xl">
+            <h1 class="text-5xl/12 font-bold text-white my-8">{{ .Title }}</h1>
+            <div class="flex items-center mb-8">
+                <img src="{{ .Params.avatar }}" alt="" class="w-15 h-auto rounded-full border border-purple-300 mr-3">
+                <div class="flex flex-col">
+                    <span class="font-semibold text-white text-lg">{{ .Params.author}}</span>
+                    <span class="text-slate-300 tracking-wide text-sm">Opublikowano: {{ .Date.Format "02.01.2006" }} r.</span>
+                </div>
+            </div>
+        </header>
+        <div class="text-lg">
+           {{ .Content }}
+        </div>
+
+    </article>
+
+
+</main>
+
+{{ end }}
