@@ -5,10 +5,10 @@
     {{ range .Paginator.Pages }}
     <article class="py-12 border-b border-white/10">
 
-        {{ $img := .Resources.GetMatch .Params.image }}
+        {{/*  {{ $img := .Resources.GetMatch .Params.image }}
         {{ if $img }}
         <img src="{{ $img.RelPermalink }}" alt="" class="border border-purple-300/30 rounded-xl mb-4">
-        {{ end }}
+        {{ end }}  */}}
         <div>
             <span class="text-md text-slate-300"><i class="fa-regular fa-pen-to-square"></i> {{ .Date.Format
                 "02.01.2006" }}</span>
