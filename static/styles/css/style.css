@@ -30,3 +30,17 @@ pre {
 .post a {
     text-decoration: underline;
 }
+
+img {
+    margin: 1rem 0;
+}
+
+table {
+    margin: 1rem 0;
+}
+
+td, th {
+    border: 1px solid #ffffff81;
+    padding: 0.3rem;
+}
+
