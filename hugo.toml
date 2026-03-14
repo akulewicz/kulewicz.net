@@ -2,8 +2,8 @@ baseURL = 'https://kulewicz.net'
 languageCode = 'en-us'
 title = 'kulewicz.net'
 [params]
-  description = "Blog o cybersecurity i DevOps."
-  og_image = "/images/dashboard.webp"
+  description = "Automatyzacja, programowanie, cybersecurity"
+  og_image = "/images/og_image.png"
 [markup]
   [markup.highlight]
     style = 'catppuccin-frappe'
