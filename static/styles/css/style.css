@@ -13,6 +13,13 @@ h2 {
     margin-bottom: 1rem;
 }
 
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: oklch(96.8% 0.007 247.896);
+    margin-bottom: 1rem;
+}
+
 pre {
     padding: 1rem;
     font-size: 1rem;
