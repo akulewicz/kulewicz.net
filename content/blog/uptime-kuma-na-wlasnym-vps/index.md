@@ -78,6 +78,11 @@ Po chwili aplikacja powinna zainicjalizować swoje działanie i być dostępna p
 http://<adres-ip-twojego-serwera>:3001
 ```
 
+**Dodatkowe zabezpieczenie:** Uptime Kuma jest mapowana na 127.0.0.1, dzięki czemu panel nie jest dostępny bezpośrednio z Internetu. Dla dodatkowej ochrony można również zablokować port 3001 w zaporze UFW:
+
+```bash
+sudo ufw deny in proto tcp to any port 3001
+```
 
 ## Uruchomienie Uptime Kuma na VPS Mikrus
 
