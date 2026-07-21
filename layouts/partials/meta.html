@@ -7,7 +7,11 @@
 <meta property="og:url" content="{{ .Permalink }}">
 
 {{ with .Params.image }}
-  <meta property="og:image" content="{{ . | absURL }}">
+  {{ if hasPrefix . "http" }}
+    <meta property="og:image" content="{{ . }}">
+  {{ else }}
+    <meta property="og:image" content="{{ (printf "%s%s" $.RelPermalink (strings.TrimPrefix "/" .)) | absURL }}">
+  {{ end }}
 {{ else }}
   {{ with .Site.Params.og_image }}
     <meta property="og:image" content="{{ . | absURL }}">
