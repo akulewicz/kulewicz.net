@@ -229,4 +229,4 @@ Wdrożenie własnego systemu monitoringu w oparciu o **Uptime Kuma** to doskona�
 
 W przypadku Mikrusa było trochę zabawy, ale im trudniej i więcej problemów, tym więcej człowiek się nauczy :)
 
-A już w następnej części skupimy się możliwościach Uptime Kuma i skonfigurujemy automatyczne powiadomienia o awariach.
+A już w [następnej części](https://kulewicz.net/blog/uptime-kuma-powiadomienia-discord/) skupimy się możliwościach Uptime Kuma i skonfigurujemy automatyczne powiadomienia o awariach.
