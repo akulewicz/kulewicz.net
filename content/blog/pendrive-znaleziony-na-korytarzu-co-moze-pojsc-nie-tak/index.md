@@ -44,7 +44,7 @@ Więcej informacji o tym eksperymencie możecie przeczytać na [stronie Elie Bur
 
 ## Dane służbowe na pendrive to zły pomysł
 
-Używanie pendrivów nieznanego pochodzenie niesie ogromne ryzyko. Ale nawet urządzenia o pewnej historii i pochodzeniu mogą stać się źródłem poważnych problemów. Przyczyna jest prosta \- łatwo taki nośnik zgubić. A jeśli okaże się, że zawartość nie jest zaszyfrowana, to może dojść do naruszenia.
+Używanie pendrivów nieznanego pochodzenie niesie ogromne ryzyko. Ale nawet urządzenia o pewnej historii i pochodzeniu mogą stać się źródłem poważnych problemów. Przyczyna jest prosta \- łatwo taki nośnik zgubić. A jeśli okaże się, że zawartość nie jest zaszyfrowana, to może powstać całkiem spory problem.
 
 W 2018 roku mieszkaniec Londynu znalazł na ulicy pendrive. Podłączył go do komputera w bibliotece i przejrzał jego zawartość. Okazało się, że **nośnik zawierał 76 folderów i ponad 1000 plików \- oczywiście nie były one zaszyfrowane**. Wśród plików znalazły się m. in.:
 
@@ -60,7 +60,7 @@ Lotnisko Heathrow zostało ukarane grzywną w wysokości 120 000 funtów.
 
 ## 4 zasady, które warto pamiętać
 
-W takim razie jak sobie radzić, jak żyć? Najlepiej zablokować w firmie możliwość korzystania z pendrive. Jeśli jest to z róœnych przyczyn niemożliwie trzeba po prostu być ostrożnym. Minimum to 4 poniższe zasady:
+W takim razie jak sobie radzić, jak żyć? Najlepiej zablokować w firmie możliwość korzystania z pendrive. Jeśli jest to z różnych przyczyn niemożliwie trzeba po prostu być ostrożnym. Minimum to 4 poniższe zasady:
 
 * **Zasada ograniczonego zaufania**: Nigdy nie podłączaj znalezionych nośników do komputera służbowego (ani prywatnego).  
 * **Uważaj na „gadżety reklamowe” z konferencji**: Odpuść sobie pendrive reklamowe, oferowane na spotkaniach, konferencjach itp.  
